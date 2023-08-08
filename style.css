@@ -1,0 +1,40 @@
+*{
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+body{
+    background-image: url(./backgroun.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button{
+    width: 800px;
+    border-radius: 40px;
+    color: white;
+    border: solid 3px rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+button:hover{
+    border-color: greenyellow;
+    background-color: rgba(128, 255, 0, 0.703);
+}
+
+main{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
